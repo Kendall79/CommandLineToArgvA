@@ -11,7 +11,7 @@ char ** CommandLineToArgvA_ola(char * commandLine, int *argc);
 
 /* #define CommandLineToArgv macro */
 #if defined(UNICODE)|| defined(_UNICODE)
-/* inlude <Windows.h> */
+/* include <Windows.h> */
 #define CommandLineToArgv CommandLineToArgvW
 #else
 #define CommandLineToArgv CommandLineToArgvA_ola
