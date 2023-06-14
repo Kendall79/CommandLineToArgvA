@@ -1,2 +1,2 @@
 # CommandLineToArgvA
-CommandLineToArgvA for Windows 32 Programing
+CommandLineToArgvA function for Windows platform Win32 programming
