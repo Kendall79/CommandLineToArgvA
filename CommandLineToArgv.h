@@ -9,9 +9,9 @@ extern
 char ** CommandLineToArgvA_ola(char * commandLine, int *argc);
 #endif // __cplusplus
 
-/* #define CommandLineToArgv macro */
+/* define CommandLineToArgv macro */
 #if defined(UNICODE)|| defined(_UNICODE)
-/* include <Windows.h> */
+/* header: #include <Windows.h> */
 #define CommandLineToArgv CommandLineToArgvW
 #else
 #define CommandLineToArgv CommandLineToArgvA_ola
